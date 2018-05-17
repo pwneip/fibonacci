@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+from math import sqrt
+import argparse
+
 __author__ = "PwnEIP"
 __copyright__ = "Copyright 2007, The Cogent Project"
 __license__ = "GPL"
@@ -7,8 +10,9 @@ __maintainer__ = "PwnEIP"
 __email__ = "pwneip@gmail.com"
 __status__ = "Production"
 
-from math import sqrt
-import argparse
+#date       : 17 May 2018
+#notes      : 
+#usage      : fibonacci.py [-b] number
 
 def main():
 	output = ""
