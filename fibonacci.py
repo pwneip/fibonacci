@@ -13,7 +13,7 @@ import argparse
 def main():
 	output = ""
 	parser = argparse.ArgumentParser(description='Generate Fibonacci sequence', 
-			usage="usage: fibonacci.py [-b] number", 
+			usage="fibonacci.py [-b] number", 
 			version="fibonacci.py 1.0",
 			add_help=True)
 	parser.add_argument("-b", "--binary",
